@@ -5,4 +5,4 @@ COPY . .
 
 RUN python manage.py migrate
 
-CMD ["python","manage.py","makemigrations","migrate","createsuperuser","runserver",,"0.0.0.0:8080"]
+CMD ["python","manage.py","makemigrations","migrate","createsuperuser","runserver",,"0.0.0.0:8001"]
